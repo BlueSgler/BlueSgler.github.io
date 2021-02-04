@@ -119,3 +119,10 @@ a {
 ::-moz-selection {
     color: #fff;
     background-color: #A9D18E;  ##e58a8a
+
+    
+/*文章透明*/
+
+.layout_post>#post {
+    background: rgba(255, 255, 255, .9);
+}

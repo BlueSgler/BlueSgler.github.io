@@ -30,4 +30,40 @@
         <tag>数据库的相关概念</tag>
       </tags>
   </entry>
+  <entry>
+    <title>栈和队列</title>
+    <url>/2021/02/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="2-栈和队列"><a href="#2-栈和队列" class="headerlink" title="2.栈和队列"></a>2.栈和队列</h2><h3 id="2-1-堆栈"><a href="#2-1-堆栈" class="headerlink" title="2.1 堆栈"></a>2.1 堆栈</h3><h4 id="2-1-1-顺序栈"><a href="#2-1-1-顺序栈" class="headerlink" title="2.1.1 顺序栈"></a>2.1.1 顺序栈</h4><p>​    <strong>1.栈的概念</strong></p>
+<ul>
+<li><p>​    栈（Stack）是操作受限的线性表，插入和删除数据元素的操作只能在线性表的一端进行。</p>
+<p><strong>2.栈的主要操作</strong></p>
+</li>
+<li><p>入栈(Push)</p>
+</li>
+<li><p>出栈(Pop)</p>
+</li>
+</ul>
+<p><img src="/noteimg/stack.png"></p>
+<p>栈的操作特性：<strong>后进先出</strong>（Last In First Out, <strong>LIFO</strong> ）</p>
+<ul>
+<li>顺序栈———栈的顺序存储结构</li>
+</ul>
+<p>确定栈底：设top为栈顶元素索引（下标）</p>
+<ul>
+<li>栈的顺序存储结构及实现</li>
+</ul>
+<p>进栈：top先 + 1，然后在top指向的位置压入数据。</p>
+<p>出栈：先top所指向的元素弹出，然后top - 1。</p>
+<p>栈空：top = -1；</p>
+<p>栈满：top = MAX_SIZE - 1;  PS：MAX_SIZE———栈的最大容量</p>
+<p>上溢：栈顶指针指出栈的外面。——-Push 时要先判断是否上溢</p>
+<p>下溢：表示栈为空栈，却仍要执行弹栈操作。———–pop时要先判断是否下溢</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
 </search>

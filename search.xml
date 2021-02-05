@@ -26,6 +26,9 @@
 <li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
       <tags>
         <tag>数据库的相关概念</tag>
       </tags>
@@ -56,7 +59,7 @@
 <p>出栈：先top所指向的元素弹出，然后top - 1。</p>
 <p>栈空：top = -1；</p>
 <p>栈满：top = MAX_SIZE - 1;  PS：MAX_SIZE———栈的最大容量</p>
-<p>上溢：栈顶指针指出栈的外面。——-Push 时要先判断是否上溢</p>
+<p>上溢：栈顶指针或栈顶元素下标指出栈的外面。——-Push 时要先判断是否上溢</p>
 <p>下溢：表示栈为空栈，却仍要执行弹栈操作。———–pop时要先判断是否下溢</p>
 ]]></content>
       <categories>

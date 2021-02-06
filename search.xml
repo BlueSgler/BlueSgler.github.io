@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数据库的相关概念</title>
+    <url>/2021/02/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<ul>
+<li>DB  ——– （Database）:存储数据的“仓库”。它保存了一系列有组织的数据。</li>
+<li>DBMS—–(Database Management System）数据库是通过DBMS创建和操作的容器</li>
+<li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库的相关概念</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++文件操作</title>
     <url>/2021/02/06/C-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<h1 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h1><p>程序运行时产生的数据都属于临时数据，程序一旦运行结束都会被释放。</p>
@@ -133,22 +149,6 @@
 ]]></content>
       <tags>
         <tag>first</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据库的相关概念</title>
-    <url>/2021/02/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<ul>
-<li>DB  ——– （Database）:存储数据的“仓库”。它保存了一系列有组织的数据。</li>
-<li>DBMS—–(Database Management System）数据库是通过DBMS创建和操作的容器</li>
-<li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>数据库的相关概念</tag>
       </tags>
   </entry>
   <entry>

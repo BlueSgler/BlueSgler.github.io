@@ -119,6 +119,22 @@
       </tags>
   </entry>
   <entry>
+    <title>数据库的相关概念</title>
+    <url>/2021/02/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<ul>
+<li>DB  ——– （Database）:存储数据的“仓库”。它保存了一系列有组织的数据。</li>
+<li>DBMS—–(Database Management System）数据库是通过DBMS创建和操作的容器</li>
+<li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库的相关概念</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/02/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -133,22 +149,6 @@
 ]]></content>
       <tags>
         <tag>first</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据库的相关概念</title>
-    <url>/2021/02/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<ul>
-<li>DB  ——– （Database）:存储数据的“仓库”。它保存了一系列有组织的数据。</li>
-<li>DBMS—–(Database Management System）数据库是通过DBMS创建和操作的容器</li>
-<li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>数据库的相关概念</tag>
       </tags>
   </entry>
   <entry>

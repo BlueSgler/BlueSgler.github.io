@@ -136,22 +136,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数据库的相关概念</title>
-    <url>/2021/02/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<ul>
-<li>DB  ——– （Database）:存储数据的“仓库”。它保存了一系列有组织的数据。</li>
-<li>DBMS—–(Database Management System）数据库是通过DBMS创建和操作的容器</li>
-<li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>数据库的相关概念</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>栈和队列</title>
     <url>/2021/02/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
     <content><![CDATA[<h2 id="2-栈和队列"><a href="#2-栈和队列" class="headerlink" title="2.栈和队列"></a>2.栈和队列</h2><h3 id="2-1-堆栈"><a href="#2-1-堆栈" class="headerlink" title="2.1 堆栈"></a>2.1 堆栈</h3><h4 id="2-1-1-顺序栈"><a href="#2-1-1-顺序栈" class="headerlink" title="2.1.1 顺序栈"></a>2.1.1 顺序栈</h4><p>​    <strong>1.栈的概念</strong></p>
@@ -266,6 +250,22 @@
       </categories>
       <tags>
         <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据库的相关概念</title>
+    <url>/2021/02/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<ul>
+<li>DB  ——– （Database）:存储数据的“仓库”。它保存了一系列有组织的数据。</li>
+<li>DBMS—–(Database Management System）数据库是通过DBMS创建和操作的容器</li>
+<li>SQL——–（Structure Query Language）结构化查询语言，专门用来与数据库通信的语言</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>数据库的相关概念</tag>
       </tags>
   </entry>
   <entry>

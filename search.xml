@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title></title>
+      <link href="2021/05/06/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA%E9%AB%98%E7%BA%A7/"/>
+      <url>2021/05/06/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA%E9%AB%98%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="为什么要学数据库理论？"><a href="#为什么要学数据库理论？" class="headerlink" title="为什么要学数据库理论？"></a>为什么要学数据库理论？</h1><h2 id="关系模式存在的问题"><a href="#关系模式存在的问题" class="headerlink" title="关系模式存在的问题"></a>关系模式存在的问题</h2><p>1.数据冗余度太大，浪费存储空间</p><p>2.更新异常</p><p>3.插入异常</p><p>4.删除异常</p><p>好的模式？</p><p>不会发生插入异常，删除异常，更新异常、数据冗余应尽量少。</p><p>问题原因：</p><p>由于模式中的某些数据依赖引起的。</p><p>解决方法：</p><p>用规范化理论改造关系模式，消除其中不合适的数据依赖。</p><p>什么是数据依赖？</p><p>eg：</p><p>STUDENT(Sno,Sdept,Mname,Cno,Grade)</p><p>该关系模式的属性集合记为U：</p><p>U={Sno，Sdept，Mname,Cno,Grade}</p><ul><li>  数学中的函数y=f(x),自变量x确定以后，相应的y也唯一确定</li><li>  Sdept=f(Sno),Sno函数确定Sdept，记为Sno-&gt;Sdept</li><li>  Mname=f(Sdept),Sdept函数确定Mname，记为Sdept-&gt;Mname</li><li>  Grade=f((Sno,Cno))，(Sno,Cno)函数确定Grade，记为</li></ul><p>属性组U上的函数依赖集合，记为F：</p><p>F={Sno-&gt;Sdept,Sdept-&gt;Mname,(Sno,Cno)-&gt;Grade}</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png" alt="img"></p><h2 id="数据依赖"><a href="#数据依赖" class="headerlink" title="数据依赖"></a>数据依赖</h2><p>1.完整性约束的一种表现形式</p><ul><li>  限定属性取值范围：例如学生的成绩必须在0-100之间</li><li>  定义属性值间的相互关联（主要体现值的相等与否），即通过属性间值的相等与否来描述</li><li>  它是数据库式设计的关键</li></ul><p>2.数据依赖</p><ul><li>  是通过一个关系中属性间值的相等与否体现出来的数据间的相互关系</li><li>  是实现世界属性间相互联系的抽象</li><li>  是数据内在的性质</li><li>  是语义的体现</li></ul><p>3.数据依赖的主要类型</p><ul><li>  函数依赖（Functional Dependency），简记为FD</li><li>  多值依赖（Mutivalued Dependency），简记为MVD</li><li>  连接依赖</li><li>  ……</li></ul><p>4.数据依赖对关系模式的影响</p><ul><li>  不合适的数据依赖，造成插入异常、删除异常、更新异常和数据冗余问题</li></ul><h2 id="关系模式简化表示"><a href="#关系模式简化表示" class="headerlink" title="关系模式简化表示"></a>关系模式简化表示</h2><p>1.关系模式的形式化定义</p><p><strong>R(U,D,DOM,F)</strong></p><ul><li>  R:关系名，是符号化的元组语义</li><li>  U:该关系的属性集合</li><li>  D:属性组U中属性所来自的域</li><li>  DOM:属性向域的映像集合</li><li>  F:属性间数据的依赖关系集合</li></ul><p>2.关系模式的简化表示</p><p>R&lt;U,F&gt;</p><p>将关系模式简化为一个三元组，影响数据库模式设计的主要是U和F</p><p>当且仅当U上的一个关系r满足F时，r称为关系模式R(U,F)的一个关系</p><h1 id="规范化"><a href="#规范化" class="headerlink" title="规范化"></a>规范化</h1><h2 id="函数依赖"><a href="#函数依赖" class="headerlink" title="函数依赖"></a>函数依赖</h2><h3 id="函数依赖-1"><a href="#函数依赖-1" class="headerlink" title="函数依赖"></a>函数依赖</h3><p>X函数确定Y或Y函数依赖于X，记作X-&gt;Y.</p><p>X称为这个函数依赖的决定属性组，也称为<strong>决定因素</strong>。</p><p>函数依赖是指关系模式R在任何时刻的关系实例均要满足的约束条件。</p><p>不是指某个或某些关系实例r满足的约束条件，而是指R的所有关系实例r均要满足约束条件。</p><h3 id="平凡函数依赖与非平凡函数依赖"><a href="#平凡函数依赖与非平凡函数依赖" class="headerlink" title="平凡函数依赖与非平凡函数依赖"></a>平凡函数依赖与非平凡函数依赖</h3><p>X-&gt;Y,Y⫋X,则称X-&gt;Y是<strong>非平凡的函数依赖</strong></p><p>X-&gt;Y,Y⊆X,则称X-&gt;Y是<strong>非平凡的函数依赖</strong></p><p>eg：</p><p>在关系SC(Sno,Cno,Grade)中，</p><p>非平凡函数依赖：(Sno,Cno)-&gt;Grade</p><p>平凡函数依赖：(Sno,Cno)-&gt;Sno</p><p>​                           (Sno,Cno)-&gt;Cno</p><p>一般平凡函数依赖一定成立，所以我们只讨论非平凡函数依赖</p><h3 id="完全函数依赖与部分函数依赖"><a href="#完全函数依赖与部分函数依赖" class="headerlink" title="完全函数依赖与部分函数依赖"></a>完全函数依赖与部分函数依赖</h3><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png" alt="img"></p><p>在关系STUDENT (Sno,Sdept,Mnaem,Cno,Grade)</p><p>(Sno,Cno)–F-&gt;Grade是完全函数依赖</p><p>(Sno,Cno)–p-&gt;Sdept是部分函数依赖，因为Sno—&gt;Sdept</p><h3 id="传递函数依赖"><a href="#传递函数依赖" class="headerlink" title="传递函数依赖"></a>传递函数依赖</h3><p>eg：在关系STUDENT(Sno,Sdept,Mname,Cno,Grade)</p><p>Sno–&gt;Sdept,Sdept–&gt;Mname,Sno—传递-&gt;Mname</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png"></p><h3 id="键"><a href="#键" class="headerlink" title="键"></a>键</h3><p>eg：</p><p>S(Sno,Sdept,Sage)</p><p>Sno—&gt;(Sno,Sdept,Sage),Sno是键</p><p>(Sno,Sdept)、(Sno,Sage)、(Sno,Sdept,Sage)是超码</p><p>SC(Sno,Cno,Grade)中，(Sno,Cno)是码</p><ul><li>  若关系模式R有多个候选码，则选定其中一个作为<strong>主码</strong>。</li></ul><h4 id="主属性与非主属性"><a href="#主属性与非主属性" class="headerlink" title="主属性与非主属性"></a>主属性与非主属性</h4><ul><li>  包含在任何一个候选键中的属性，称为<strong>主属性</strong></li><li>  不包含在任何键中的属性称为<strong>非主属性</strong></li></ul><p>eg：S(Sno,Sdept,Sage),Sno是键，Sno是主属性，Sdept,Sage是非主属性</p><p>SC(Sno,Cno,Grade)中，(Sno,Cno)是键</p><p>Sno，Cno是主属性，Grade是非主属性</p><h4 id="全键"><a href="#全键" class="headerlink" title="全键"></a>全键</h4><p>整个属性组是键，称为全键</p><h4 id="外键"><a href="#外键" class="headerlink" title="外键"></a>外键</h4><p>关系模式R&lt;U,F&gt;,U中属性或属性组X并非R的键，但X是另一个关系模式的键，则称X是R的外键。</p><h2 id="第二范式（2NF）"><a href="#第二范式（2NF）" class="headerlink" title="第二范式（2NF）"></a>第二范式（2NF）</h2><p>范式是符合某一种级别的关系模式的集合。</p><p>关系数据库中的关系必须满足一定的要求。</p><p>满足不同程度要求的为不同范式。</p><p>范式的种类</p><p>第一范式（1NF）</p><p>第二范式（2NF）</p><p>第三范式（3NF）</p><p>BC范式（BCNF,boyce和Codd共同提出的范式）</p><p>第四范式（4NF）</p><p>第五范式（5NF）</p><p>各种范式之间存在联系：</p><p>1NF⊃2NF⊃3NF⊃BCNF⊃4NF⊃5NF</p><p>某一关系模式R为第n范式，可简记为R∈nNF</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/image-20210507202535825.png" alt="image-20210507202535825"></p><p>一个低一级范式的关系模式，通过模式分解可以转换为若干个高一级范式的关系模式的集合，这种过程叫做<strong>规范化</strong>。</p><h3 id="第一范式"><a href="#第一范式" class="headerlink" title="第一范式"></a>第一范式</h3><p>如果一个关系模式R的所有属性都是不可分的基本数据项，则R∈1NF</p><p>通俗地讲：不允许表中有表</p><p>但是满足第一范式的关系模式并不一定是一个好的关系模式。</p><h3 id="第二范式"><a href="#第二范式" class="headerlink" title="第二范式"></a>第二范式</h3><p>若关系模式R∈1NF，并且每一个非主属性都完全依赖于R的键，则R∈2NF。</p><p>eg：</p><p>S-L-C(Sno,Cno,Sdept,Sloc,Grade)∈1NF</p><p>S-L-C(Sno,Cno,Sdept,Sloc,Grade)∉2NF</p><p>描述不清，请自行百度</p><h2 id="第三范式-3NF"><a href="#第三范式-3NF" class="headerlink" title="第三范式  (3NF)"></a>第三范式  (3NF)</h2><h2 id="BC范式-BCNF"><a href="#BC范式-BCNF" class="headerlink" title="BC范式(BCNF)"></a>BC范式(BCNF)</h2><h4 id="多值依赖"><a href="#多值依赖" class="headerlink" title="多值依赖"></a>多值依赖</h4><h4 id="第四范式-4NF"><a href="#第四范式-4NF" class="headerlink" title="第四范式(4NF)"></a>第四范式(4NF)</h4><h3 id="规范化小结"><a href="#规范化小结" class="headerlink" title="规范化小结"></a>规范化小结</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据库高级 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++&amp;Mysql</title>
       <link href="2021/05/04/C-Mysql/"/>
       <url>2021/05/04/C-Mysql/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="C-amp-Mysql"><a href="#C-amp-Mysql" class="headerlink" title="C++&amp;Mysql"></a>C++&amp;Mysql</h1><p>重置mysql密码：ALTER USER “root”@”localhost” IDENTIFIED BY “***mima”</p><p>修改数据库远程访问权限：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-u root -p密码 -h 主机ip地址</span><br></pre></td></tr></table></figure><p>更改任何机器都能远程访问</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">update user set host&#x3D;&quot;%&quot; where user&#x3D;&quot;root&quot;;</span><br></pre></td></tr></table></figure><p>注意这里%表示所有都能访问，在实际开发中非常不安全，因此实际开发中，应该让某些特定的机器能访问。</p><p>设置完以后，需要刷新一下</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">flush privileges;</span><br></pre></td></tr></table></figure><p>如果不记得这个指令可以重启sever</p><p>刷新以后，重新连接。如果将mysql部署到阿里云，需要将3306这个端口开放出来。</p>]]></content>
       
       
       <categories>
@@ -29,11 +54,61 @@
     
     
     <entry>
+      <title>Day 17</title>
+      <link href="2021/05/03/Day-17/"/>
+      <url>2021/05/03/Day-17/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Day-17"><a href="#Day-17" class="headerlink" title="Day 17"></a>Day 17</h1><p>2018年12月真题（第二套）</p><p>passage one</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/F9E508E52C9BA5902A459B3EF9826AEF.jpg" alt="img"></p><h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><ul><li>  exposure 接触</li><li>  pea 豌豆</li><li>  bowl carrot 煮熟的胡萝卜</li><li>  rate 评价</li><li>  tial 实验</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 16</title>
+      <link href="2021/05/02/Day-16/"/>
+      <url>2021/05/02/Day-16/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Day-16"><a href="#Day-16" class="headerlink" title="Day 16"></a>Day 16</h1><p>2018年12月真题（第二套）</p><p>news report 3</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/D5EAE3C803E9EEDEF4B608B0A98DA5F8.jpg" alt="img"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>  reveal 揭示</li><li>  phase 阶段，状态，方面</li><li>  rarely 注意这里容易误听为really</li><li>  cap 帽子</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Day 15</title>
       <link href="2021/05/01/Day-15/"/>
       <url>2021/05/01/Day-15/</url>
       
-        <content type="html"><![CDATA[<h1 id="Day-14"><a href="#Day-14" class="headerlink" title="Day 14"></a>Day 14</h1><p>2018年12月真题（第二套）</p><p>news report 2</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/8A5E8D6BFD6A071EFDDECA019B450F8C.jpg" alt="img"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>  paycheck 薪水支票</li><li>  campaigner 活动家</li><li>  being bad at math 连读</li><li>  badge 勋章</li><li>  nation 大众</li><li>  that are 连读</li><li>  at best</li><li>  launch  启动</li><li>  chief executive 首席执行官</li><li>  prevalent 普遍存在的</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="Day-15"><a href="#Day-15" class="headerlink" title="Day 15"></a>Day 15</h1><p>2018年12月真题（第二套）</p><p>news report 2</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/8A5E8D6BFD6A071EFDDECA019B450F8C.jpg" alt="img"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>  paycheck 薪水支票</li><li>  campaigner 活动家</li><li>  being bad at math 连读</li><li>  badge 勋章</li><li>  nation 大众</li><li>  that are 连读</li><li>  at best</li><li>  launch  启动</li><li>  chief executive 首席执行官</li><li>  prevalent 普遍存在的</li></ul>]]></content>
       
       
       <categories>

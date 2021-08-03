@@ -3898,7 +3898,7 @@ _:future,
   display: inline-block !important;
 }
 #nav.hide-menu #toggle-menu .site-page {
-  font-size: inherit;
+  font-size: 0.7rem;
 }
 #nav.hide-menu .menus_items {
   position: absolute;
@@ -3936,9 +3936,6 @@ _:future,
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-#nav .site-page:not(.child):hover:after {
-  width: 100%;
 }
 #pagination {
   overflow: hidden;

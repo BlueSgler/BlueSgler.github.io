@@ -162,7 +162,7 @@
 </ul>
 <p>属性组U上的函数依赖集合，记为F：</p>
 <p>F={Sno-&gt;Sdept,Sdept-&gt;Mname,(Sno,Cno)-&gt;Grade}</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png" alt="img"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png" alt="img"></p>
 <h2 id="数据依赖"><a href="#数据依赖" class="headerlink" title="数据依赖"></a>数据依赖</h2><p>1.完整性约束的一种表现形式</p>
 <ul>
 <li>  限定属性取值范围：例如学生的成绩必须在0-100之间</li>
@@ -212,13 +212,13 @@
 <p>平凡函数依赖：(Sno,Cno)-&gt;Sno</p>
 <p>​                           (Sno,Cno)-&gt;Cno</p>
 <p>一般平凡函数依赖一定成立，所以我们只讨论非平凡函数依赖</p>
-<h3 id="完全函数依赖与部分函数依赖"><a href="#完全函数依赖与部分函数依赖" class="headerlink" title="完全函数依赖与部分函数依赖"></a>完全函数依赖与部分函数依赖</h3><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png" alt="img"></p>
+<h3 id="完全函数依赖与部分函数依赖"><a href="#完全函数依赖与部分函数依赖" class="headerlink" title="完全函数依赖与部分函数依赖"></a>完全函数依赖与部分函数依赖</h3><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png" alt="img"></p>
 <p>在关系STUDENT (Sno,Sdept,Mnaem,Cno,Grade)</p>
 <p>(Sno,Cno)–F-&gt;Grade是完全函数依赖</p>
 <p>(Sno,Cno)–p-&gt;Sdept是部分函数依赖，因为Sno—&gt;Sdept</p>
 <h3 id="传递函数依赖"><a href="#传递函数依赖" class="headerlink" title="传递函数依赖"></a>传递函数依赖</h3><p>eg：在关系STUDENT(Sno,Sdept,Mname,Cno,Grade)</p>
 <p>Sno–&gt;Sdept,Sdept–&gt;Mname,Sno—传递-&gt;Mname</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/JXP%7DH3%60B08CUXLS@G8%7D61LK.png"></p>
 <h3 id="键"><a href="#键" class="headerlink" title="键"></a>键</h3><p>eg：</p>
 <p>S(Sno,Sdept,Sage)</p>
 <p>Sno—&gt;(Sno,Sdept,Sage),Sno是键</p>
@@ -249,7 +249,7 @@
 <p>各种范式之间存在联系：</p>
 <p>1NF⊃2NF⊃3NF⊃BCNF⊃4NF⊃5NF</p>
 <p>某一关系模式R为第n范式，可简记为R∈nNF</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/image-20210507202535825.png" alt="image-20210507202535825"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/image-20210507202535825.png" alt="image-20210507202535825"></p>
 <p>一个低一级范式的关系模式，通过模式分解可以转换为若干个高一级范式的关系模式的集合，这种过程叫做<strong>规范化</strong>。</p>
 <h3 id="第一范式"><a href="#第一范式" class="headerlink" title="第一范式"></a>第一范式</h3><p>如果一个关系模式R的所有属性都是不可分的基本数据项，则R∈1NF</p>
 <p>通俗地讲：不允许表中有表</p>
@@ -257,7 +257,7 @@
 <h3 id="第二范式"><a href="#第二范式" class="headerlink" title="第二范式"></a>第二范式</h3><p>若关系模式R∈1NF，并且每一个非主属性都完全依赖于R的键，则R∈2NF。</p>
 <p>eg：关系模式S-L-C(Sno,Cno,Sdept,Sloc,Grade)</p>
 <p>Sloc为学生住处，假设每个系的学生住在同一个楼。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/image-20210508113908448.png" alt="image-20210508113908448"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/image-20210508113908448.png" alt="image-20210508113908448"></p>
 <ol>
 <li><p> S-L-C满足第一范式。</p>
 </li>

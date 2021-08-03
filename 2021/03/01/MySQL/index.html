@@ -1094,7 +1094,7 @@
 <p>总结之sq192和sql99异同：</p>
 <p>功能：sql99支持的较多</p>
 <p>可读性：sql99实现连接条件和筛选条件的分离，可读性较高</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/noteimg/lj.png"><br><img src= "/img/loading.gif" data-lazy-src="/noteimg/lj2.png"></p>
+<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="/noteimg/lj.png"><br><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="/noteimg/lj2.png"></p>
 <p>补充案例：</p>
 <p>查询编号&gt;3的女神的男朋友信息，如果有则列出，没有用null填充</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">SELECT b.id,b.&#96;name&#96;,bo.*</span><br><span class="line">FROM beauty b</span><br><span class="line">LEFT OUTER JOIN boys bo</span><br><span class="line">ON b.boyfriend_id&#x3D;bo.id</span><br><span class="line">WHERE b.id&gt;3;</span><br></pre></td></tr></table></figure>

@@ -3259,9 +3259,13 @@ blockquote footer cite:before {
 }
 #footer-wrap {
   position: relative;
-  padding: 2rem 1rem;
+  padding: 1.2rem 1rem 1.4rem;
   color: var(--light-grey);
   text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 #footer-wrap a {
   color: var(--light-grey);

@@ -1,11 +1,4 @@
-/* 首页文章卡片 */
-#recent-posts > .recent-post-item{
-    background:rgba(255, 255, 255, 0.9);
-}
-/* 首页侧栏卡片 */
-.card-widget{
-  background:rgba(255, 255, 255, 0.9)!important;
-}
+
 /* 文章页面正文背景 */
 div#post{
   background: rgba(255, 255, 255, 0.9);

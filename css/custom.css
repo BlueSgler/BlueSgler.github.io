@@ -1,4 +1,7 @@
-
+/* 首页侧栏卡片 */
+.card-widget{
+  background:rgba(255, 255, 255, 0.9)!important;
+}
 /* 文章页面正文背景 */
 div#post{
   background: rgba(255, 255, 255, 0.9);
@@ -26,6 +29,10 @@ div#category{
 /* 头图透明 */
 #page-header{
   background: transparent!important;
+}
+/*全局透明*/
+#footer{
+  opacity: 0.5;
 }
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 #page-header.post-bg:before {

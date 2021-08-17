@@ -67,3 +67,12 @@ div#category{
       background: rgba(0, 0, 0, 0.5)!important;
       color: #ffffff;
       }
+ /*评论区美化*/
+#veditor {
+    background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: vertical
+}

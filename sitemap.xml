@@ -424,6 +424,13 @@
   </url>
   
   <url>
+    <loc>http://bler.top/tags/%E5%8D%9A%E5%BC%88/</loc>
+    <lastmod>2021-08-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://bler.top/tags/%F0%9F%8C%9F%E6%AD%A4%E5%A4%84%E6%99%B4%E5%A4%9C%EF%BC%8C%E5%BD%BC%E5%A4%84%E8%BF%9C%E6%98%9F/</loc>
     <lastmod>2021-08-19</lastmod>
     <changefreq>daily</changefreq>
@@ -438,7 +445,7 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E5%8D%9A%E5%BC%88/</loc>
+    <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%AB%98%E7%BA%A7/</loc>
     <lastmod>2021-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -446,13 +453,6 @@
   
   <url>
     <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</loc>
-    <lastmod>2021-08-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%AB%98%E7%BA%A7/</loc>
     <lastmod>2021-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -552,14 +552,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>http://bler.top/categories/%E6%B1%87%E7%BC%96/</loc>
     <lastmod>2021-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%B1%87%E7%BC%96/</loc>
+    <loc>http://bler.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2021-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

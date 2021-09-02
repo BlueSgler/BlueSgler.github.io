@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>pr学习笔记</title>
+      <link href="2021/09/02/pr%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>2021/09/02/pr%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/pr.jpg" alt="pr"></p><p>1.把素材拖动到新建上，可以自动新建序列</p><p>时基就是帧速率</p><p>高清是逐行扫描</p><p>标清是隔行扫描</p><p>画面抖动，场设置不对</p><p><strong>最大位深度参数选项</strong>：如果在项目中包含了<strong>Photoshop</strong>或者高清摄像机生机的高位深度资源，就可以勾选“<strong>最大位深度</strong>“。</p><p><strong>最高渲染质量参数选项</strong>：当我们对<strong>视频</strong>进行处理时，如果将视频从高清缩放到标清的时候，选择该选项可以保持<strong>视频</strong>的润滑细节，使我们序列中的质量到达最佳效果。</p><p>需要提醒的是，当选择了“<strong>最大位深度</strong>”和“<strong>最高渲染质量</strong>”两个选项后，Premiere会大量占用计算机的资源，所以提示大家适当选用。</p><p>对图片默认时间进行调整：</p><p>编辑-&gt;首选项-&gt;时间轴-&gt;图片静止时间</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> pr </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pr </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语打卡Day7</title>
       <link href="2021/09/01/%E6%97%A5%E8%AF%AD%E6%89%93%E5%8D%A1Day7/"/>
       <url>2021/09/01/%E6%97%A5%E8%AF%AD%E6%89%93%E5%8D%A1Day7/</url>
       
-        <content type="html"><![CDATA[<p>打卡新标日5课</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="动词"><a href="#动词" class="headerlink" title="动词"></a>动词</h1><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/D127C3E71B7F5D7FE118A3001B01EB5B.jpg" alt="img"></p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/A93FF202113317D701B0153AA238815F.jpg" alt="img"></p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/MR_4L20AN~TQWRY%7B$@SFZ73.png" alt="img"></p><p>打卡新标日5课</p>]]></content>
       
       
       <categories>

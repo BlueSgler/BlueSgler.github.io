@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bler.top/2021/09/03/%E6%97%A5%E8%AF%AD%E6%89%93%E5%8D%A1Day8/</loc>
+    
+    <lastmod>2021-09-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bler.top/2021/09/02/pr%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2021-09-03</lastmod>
@@ -487,14 +494,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E9%81%BF%E5%9D%91/</loc>
+    <loc>http://bler.top/tags/%E5%8D%9A%E5%BC%88/</loc>
     <lastmod>2021-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E5%8D%9A%E5%BC%88/</loc>
+    <loc>http://bler.top/tags/%E9%81%BF%E5%9D%91/</loc>
     <lastmod>2021-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -608,14 +615,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>http://bler.top/categories/%E6%9A%82%E6%97%A0/</loc>
     <lastmod>2021-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%9A%82%E6%97%A0/</loc>
+    <loc>http://bler.top/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2021-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -650,14 +657,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>http://bler.top/categories/%E6%B1%87%E7%BC%96/</loc>
     <lastmod>2021-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%B1%87%E7%BC%96/</loc>
+    <loc>http://bler.top/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

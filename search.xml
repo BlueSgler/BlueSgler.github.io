@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>日语Day10打卡</title>
+      <link href="2021/09/05/%E6%97%A5%E8%AF%ADDay10%E6%89%93%E5%8D%A1/"/>
+      <url>2021/09/05/%E6%97%A5%E8%AF%ADDay10%E6%89%93%E5%8D%A1/</url>
+      
+        <content type="html"><![CDATA[<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/QQ%E5%9B%BE%E7%89%8720210905230832.png"></p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/QQ%E5%9B%BE%E7%89%8720210905231139.png"></p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/image-20210905231256146.png" alt="image-20210905231256146"></p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/image-20210905231354706.png" alt="image-20210905231354706"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日语 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语打卡Day9</title>
       <link href="2021/09/04/%E6%97%A5%E8%AF%AD%E6%89%93%E5%8D%A1Day9/"/>
       <url>2021/09/04/%E6%97%A5%E8%AF%AD%E6%89%93%E5%8D%A1Day9/</url>
@@ -58,7 +83,7 @@
       <link href="2021/09/02/pr%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
       <url>2021/09/02/pr%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/pr.jpg" alt="pr"></p><p>1.把素材拖动到新建上，可以自动新建序列</p><p>时基就是帧速率</p><p>高清是逐行扫描</p><p>标清是隔行扫描</p><p>画面抖动，场设置不对</p><p><strong>最大位深度参数选项</strong>：如果在项目中包含了<strong>Photoshop</strong>或者高清摄像机生机的高位深度资源，就可以勾选“<strong>最大位深度</strong>“。</p><p><strong>最高渲染质量参数选项</strong>：当我们对<strong>视频</strong>进行处理时，如果将视频从高清缩放到标清的时候，选择该选项可以保持<strong>视频</strong>的润滑细节，使我们序列中的质量到达最佳效果。</p><p>需要提醒的是，当选择了“<strong>最大位深度</strong>”和“<strong>最高渲染质量</strong>”两个选项后，Premiere会大量占用计算机的资源，所以提示大家适当选用。</p><p>对图片默认时间进行调整：</p><p>编辑-&gt;首选项-&gt;时间轴-&gt;图片静止时间</p><p>创建入点：i 创建出点：o</p><p>拖动素材时会覆盖到前面的素材，所以要按住ctrl拖动</p><p>如果想要删除一段视频，又不删除以后有缝隙，可以按住shift+delete</p><p>选择入点和出点以后，按住提升是有缝隙的删除</p><p>按住提取是无缝隙的删除</p><p>在源监视器中选择一段，直接拖动会覆盖，但是按住ctrl再拖动就是插入</p><p>在源监视器中选择一段，拖动到项目中，按住ctrl拖动会出现命名子剪辑，右键可以编辑子剪辑</p><p>添加标记 m 双击m标记编辑</p><p>导出帧是个好东西，源点解插入可以在断开的地方插，波纹删除是个好东西</p><p>按住shift可以直接吸附</p><p>过度效果:按住shift可以单独修改一侧</p><p>关键帧：ctrl+鼠标点击</p><p>视频替换：在源中找到一段要替换的视频，先查看要替换的视频的长度，然后在时间那里输入+4（假如是4帧），在序列中选择要替换的位置，选择覆盖即可。替换的时候要减一帧</p><p>三点式替换</p><p>右键从匹配帧替换</p>]]></content>
+        <content type="html"><![CDATA[<p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/pr.jpg" alt="pr"></p><p>1.把素材拖动到新建上，可以自动新建序列</p><p>时基就是帧速率</p><p>高清是逐行扫描</p><p>标清是隔行扫描</p><p>画面抖动，场设置不对</p><p><strong>最大位深度参数选项</strong>：如果在项目中包含了<strong>Photoshop</strong>或者高清摄像机生机的高位深度资源，就可以勾选“<strong>最大位深度</strong>“。</p><p><strong>最高渲染质量参数选项</strong>：当我们对<strong>视频</strong>进行处理时，如果将视频从高清缩放到标清的时候，选择该选项可以保持<strong>视频</strong>的润滑细节，使我们序列中的质量到达最佳效果。</p><p>需要提醒的是，当选择了“<strong>最大位深度</strong>”和“<strong>最高渲染质量</strong>”两个选项后，Premiere会大量占用计算机的资源，所以提示大家适当选用。</p><p>对图片默认时间进行调整：</p><p>编辑-&gt;首选项-&gt;时间轴-&gt;图片静止时间</p><p>创建入点：i 创建出点：o</p><p>拖动素材时会覆盖到前面的素材，所以要按住ctrl拖动</p><p>如果想要删除一段视频，又不删除以后有缝隙，可以按住shift+delete</p><p>选择入点和出点以后，按住提升是有缝隙的删除</p><p>按住提取是无缝隙的删除</p><p>在源监视器中选择一段，直接拖动会覆盖，但是按住ctrl再拖动就是插入</p><p>在源监视器中选择一段，拖动到项目中，按住ctrl拖动会出现命名子剪辑，右键可以编辑子剪辑</p><p>添加标记 m 双击m标记编辑</p><p>导出帧是个好东西，源点解插入可以在断开的地方插，波纹删除是个好东西</p><p>按住shift可以直接吸附</p><p>过度效果:按住shift可以单独修改一侧</p><p>关键帧：ctrl+鼠标点击</p><p>视频替换：在源中找到一段要替换的视频，先查看要替换的视频的长度，然后在时间那里输入+4（假如是4帧），在序列中选择要替换的位置，选择覆盖即可。替换的时候要减一帧</p><p>三点式替换</p><p>右键从匹配帧替换</p><p>滚动编辑工具，可以改变长度，但是整体长度不变化（长按波纹编辑工具即可选择）</p><p>编辑的快捷键</p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/image-20210904230220238.png" alt="image-20210904230220238"></p><p>alt+3和alt+4以后会常用</p><p>进入修剪监视器：shift+t</p><p>选中波纹，ctrl+左右箭头可以实现一些细微的修剪，shift+ctrl+左右箭头可以实现稍微大幅度的修剪</p><p>适当运用向前选择工具，不按shift是选择所有轨道</p><p>按住shift是选择单个轨道</p><p>比例拉伸工具，鬼畜神器</p><p>切割工具：按住shift可以对整个轨道进行切割</p><p>使用外滑工具在不变序列素材长度的情况下来调整素材的入点和出点</p><p>双击视频显示界定框</p><p>如果视频大于序列，可以右键缩放为帧大小</p><p>关键帧可以设置视频运动轨迹，设置画中画效果，可以设定特殊的图片路径</p><p>打开关键帧可以对关键帧微调</p><p>如果对一张图片设置复杂的关键帧，想要复制到另一张图片去，赋值图片，到另一张选择粘贴属性，如果只要某个属性，可以在效果控件那里赋值，粘贴</p><p>按住ctrl键多选可以保存预设，在效果-&gt;预设中可以查看</p><p>多机位可以提高剪辑效率，弄好以后可以拼合</p>]]></content>
       
       
       <categories>

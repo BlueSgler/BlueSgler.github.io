@@ -550,14 +550,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/python/</loc>
+    <loc>http://bler.top/tags/pr/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/pr/</loc>
+    <loc>http://bler.top/tags/python/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -585,14 +585,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E9%81%BF%E5%9D%91/</loc>
+    <loc>http://bler.top/tags/%E5%8D%9A%E5%BC%88/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E5%8D%9A%E5%BC%88/</loc>
+    <loc>http://bler.top/tags/%E9%81%BF%E5%9D%91/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -613,13 +613,6 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E6%98%9F%E7%A9%BA/</loc>
-    <lastmod>2022-05-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
@@ -628,6 +621,13 @@
   
   <url>
     <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%AB%98%E7%BA%A7/</loc>
+    <lastmod>2022-05-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bler.top/tags/%E6%98%9F%E7%A9%BA/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -727,14 +727,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>http://bler.top/categories/%E6%9A%82%E6%97%A0/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%9A%82%E6%97%A0/</loc>
+    <loc>http://bler.top/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2022-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

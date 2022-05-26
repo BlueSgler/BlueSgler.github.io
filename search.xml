@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>pinia使用</title>
+      <link href="2022/05/26/pinia%E4%BD%BF%E7%94%A8/"/>
+      <url>2022/05/26/pinia%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install pinia</span><br><span class="line">npm i pinia-plugin-persist</span><br></pre></td></tr></table></figure><h2 id="store"><a href="#store" class="headerlink" title="store"></a>store</h2><p>在src下面新建store文件夹，在此文件夹下新建index.js</p><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/image-20220526103538454.png" alt="image-20220526103538454"></p><h2 id="main-js"><a href="#main-js" class="headerlink" title="main.js"></a>main.js</h2><p>在main.js中将store引进来，并挂载在app上</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; createApp &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">&#x27;./App.vue&#x27;</span></span><br><span class="line"><span class="keyword">import</span> router <span class="keyword">from</span> <span class="string">&#x27;./router&#x27;</span></span><br><span class="line"><span class="keyword">import</span> store <span class="keyword">from</span> <span class="string">&#x27;./store&#x27;</span></span><br><span class="line">createApp(App).use(store).use(router).mount(<span class="string">&#x27;#app&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><p>引入pinia</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; createPinia &#125; <span class="keyword">from</span> <span class="string">&quot;pinia&quot;</span>;</span><br><span class="line"><span class="keyword">import</span> piniaPluginPersist <span class="keyword">from</span> <span class="string">&#x27;pinia-plugin-persist&#x27;</span></span><br><span class="line"><span class="keyword">const</span> store = createPinia()</span><br><span class="line">store.use(piniaPluginPersist)</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> store</span><br></pre></td></tr></table></figure><h2 id="分模块"><a href="#分模块" class="headerlink" title="分模块"></a>分模块</h2><p>在store下面新建模块的js</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 前端 数据共享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Sevlet</title>
       <link href="2022/04/17/Sevlet/"/>
       <url>2022/04/17/Sevlet/</url>

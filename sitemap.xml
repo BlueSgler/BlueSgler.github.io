@@ -564,14 +564,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/python/</loc>
+    <loc>http://bler.top/tags/pr/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/pr/</loc>
+    <loc>http://bler.top/tags/python/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -585,14 +585,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%F0%9F%93%9D%E4%BD%9C%E5%93%81/</loc>
+    <loc>http://bler.top/tags/%F0%9F%8C%9F%E6%AD%A4%E5%A4%84%E6%99%B4%E5%A4%9C%EF%BC%8C%E5%BD%BC%E5%A4%84%E8%BF%9C%E6%98%9F%F0%9F%8C%8C/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%F0%9F%8C%9F%E6%AD%A4%E5%A4%84%E6%99%B4%E5%A4%9C%EF%BC%8C%E5%BD%BC%E5%A4%84%E8%BF%9C%E6%98%9F%F0%9F%8C%8C/</loc>
+    <loc>http://bler.top/tags/%E9%81%BF%E5%9D%91/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -606,7 +606,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E9%81%BF%E5%9D%91/</loc>
+    <loc>http://bler.top/tags/%F0%9F%93%9D%E4%BD%9C%E5%93%81/</loc>
+    <lastmod>2022-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bler.top/tags/%E6%98%9F%E7%A9%BA/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -627,13 +634,6 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E6%98%9F%E7%A9%BA/</loc>
-    <lastmod>2022-06-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
@@ -641,14 +641,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%AB%98%E7%BA%A7/</loc>
+    <loc>http://bler.top/tags/%E6%97%A5%E8%AF%AD/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E6%97%A5%E8%AF%AD/</loc>
+    <loc>http://bler.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%AB%98%E7%BA%A7/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -734,7 +734,7 @@
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>http://bler.top/categories/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -748,7 +748,7 @@
   </url>
   
   <url>
-    <loc>http://bler.top/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>http://bler.top/categories/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

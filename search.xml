@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>js this指向问题</title>
+      <link href="2022/06/24/js-this%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/"/>
+      <url>2022/06/24/js-this%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="this-指向问题"><a href="#this-指向问题" class="headerlink" title="this 指向问题"></a>this 指向问题</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 🌠html🍀 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>pinia使用</title>
       <link href="2022/05/26/pinia%E4%BD%BF%E7%94%A8/"/>
       <url>2022/05/26/pinia%E4%BD%BF%E7%94%A8/</url>

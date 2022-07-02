@@ -1,0 +1,493 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>前端面试题 | bler's blog</title><meta name="keywords" content="🌠html，css，js，vue🍀"><meta name="author" content="Lriver"><meta name="copyright" content="Lriver"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前端学习笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端面试题">
+<meta property="og:url" content="http://bler.top/2022/07/02/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/index.html">
+<meta property="og:site_name" content="bler&#39;s blog">
+<meta property="og:description" content="前端学习笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/2D0C2B9A44C359EC55811EE06B157A54.jpg">
+<meta property="article:published_time" content="2022-07-02T03:19:28.000Z">
+<meta property="article:modified_time" content="2022-07-02T07:40:58.042Z">
+<meta property="article:author" content="Lriver">
+<meta property="article:tag" content="🌠html，css，js，vue🍀">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/2D0C2B9A44C359EC55811EE06B157A54.jpg"><link rel="shortcut icon" href="/img/favicon2.ico"><link rel="canonical" href="http://bler.top/2022/07/02/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="yandex-verification" content="{&quot;theme_color&quot;:{&quot;enable&quot;:true,&quot;main&quot;:&quot;#a686ba&quot;,&quot;paginator&quot;:&quot;#a686ba&quot;,&quot;button_hover&quot;:&quot;#a686ba&quot;,&quot;text_selection&quot;:&quot;#a686ba&quot;,&quot;link_color&quot;:&quot;#a686ba&quot;,&quot;meta_color&quot;:&quot;#a686ba&quot;,&quot;hr_color&quot;:&quot;#a686ba&quot;}}"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"top-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-07-02 15:40:58'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><style>#article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 1s linear infinite; -moz-animation: avatar_turn_around 1s linear infinite; -o-animation: avatar_turn_around 1s linear infinite; -ms-animation: avatar_turn_around 1s linear infinite; animation: avatar_turn_around 1s linear infinite; }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macblack.css"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet"><link rel="stylesheet" href=" /css/universe.css"><script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"><script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script><link rel="stylesheet" href="/css/card_botui.css" /><link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiperstyle.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="/img/tx1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">68</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">24</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">16</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li><li><a class="site-page child" href="/myself/"><i class="fa-fw fa fa-id-card"></i><span> myself</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/2D0C2B9A44C359EC55811EE06B157A54.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">bler's blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li><li><a class="site-page child" href="/myself/"><i class="fa-fw fa fa-id-card"></i><span> myself</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">前端面试题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-02T03:19:28.000Z" title="发表于 2022-07-02 11:19:28">2022-07-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-02T07:40:58.042Z" title="更新于 2022-07-02 15:40:58">2022-07-02</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="前端面试题"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="k如何让一个盒子快速居中"><a href="#k如何让一个盒子快速居中" class="headerlink" title="k如何让一个盒子快速居中"></a>k如何让一个盒子快速居中</h1><p>node，react，webpack，服务器部署，前端安全，浏览器，vite，数据结构</p>
+<h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><h2 id="如何让一个盒子快速居中"><a href="#如何让一个盒子快速居中" class="headerlink" title="如何让一个盒子快速居中"></a>如何让一个盒子快速居中</h2><p><img src= "https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/4CE88140BB2583214E44CDF53903612D.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/image-20220702112612059.png" alt="image-20220702112612059"></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">   * &#123;</span><br><span class="line">          <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">          <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">      &#125;</span><br><span class="line"><span class="selector-tag">body</span>,<span class="selector-tag">html</span> &#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">          <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-class">.box</span> &#123;</span><br><span class="line">          <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">          <span class="attribute">height</span>: <span class="number">200px</span>;</span><br><span class="line">          <span class="attribute">background-color</span>: pink;</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>方法：给box加margin：auto，body加display：flex；</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">        * &#123;</span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">padding</span>: <span class="number">0</span>;</span></span><br><span class="line">        &#125;</span><br><span class="line"><span class="css">        <span class="selector-tag">body</span>,<span class="selector-tag">html</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">100%</span>;</span></span><br><span class="line">        &#125;</span><br><span class="line">        .box &#123;</span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">background-color</span>: pink;</span></span><br><span class="line"><span class="css">            <span class="attribute">margin</span>: auto;</span></span><br><span class="line">        &#125;</span><br><span class="line"><span class="css">        <span class="selector-tag">body</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">display</span>: flex;</span></span><br><span class="line">        &#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="margin和padding有何不同"><a href="#margin和padding有何不同" class="headerlink" title="margin和padding有何不同"></a>margin和padding有何不同</h2><p>作用对象不同，margin作用于外部对象，padding作用于自身</p>
+<h2 id="vw和百分比有何区别"><a href="#vw和百分比有何区别" class="headerlink" title="vw和百分比有何区别"></a>vw和百分比有何区别</h2><p>百分比有继承关系，vw只和设备的宽度有关系</p>
+<h2 id="行内元素与块级元素的区别"><a href="#行内元素与块级元素的区别" class="headerlink" title="行内元素与块级元素的区别"></a>行内元素与块级元素的区别</h2><p>行内元素的宽度由它的内容决定，而块级元素的宽度具有继承关系，默认继承父元素的宽度</p>
+<p>块级width的默认值是父元素的100%,一般情况下不用设置就可以满足需求。height的默认值是里面内容的高度,也就是auto,一般写代码的时候也不需要给元素设置高度,如果设置了高度而且设置的高度不够的时候，就会出现元素重叠的情况。</p>
+<h2 id="如何让谷歌浏览器支持小字体"><a href="#如何让谷歌浏览器支持小字体" class="headerlink" title="如何让谷歌浏览器支持小字体"></a>如何让谷歌浏览器支持小字体</h2><p>使用scale</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">            <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">            <span class="attribute">transform</span>: <span class="built_in">scale</span>(.<span class="number">51</span>);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="js"><a href="#js" class="headerlink" title="js"></a>js</h1><h2 id="let与var"><a href="#let与var" class="headerlink" title="let与var"></a>let与var</h2><p>var的三个问题：</p>
+<p>1.变量提升=&gt;先买票后上车</p>
+<p>2.没有局部作用域=&gt;红杏出墙</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">func</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">          <span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="number">5</span>;i++)&#123;</span><br><span class="line"></span><br><span class="line">          &#125;</span><br><span class="line">          <span class="built_in">console</span>.log(i) <span class="comment">//5</span></span><br><span class="line">      &#125;</span><br><span class="line">      func()</span><br></pre></td></tr></table></figure>
+
+<p>3.声明覆盖=&gt;变量污染</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name2=<span class="string">&#x27;huahua&#x27;</span></span><br><span class="line"><span class="keyword">var</span> name2=<span class="string">&#x27;lala&#x27;</span></span><br><span class="line"><span class="built_in">console</span>.log(name2); <span class="comment">//lala</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="深拷贝与浅拷贝"><a href="#深拷贝与浅拷贝" class="headerlink" title="深拷贝与浅拷贝"></a>深拷贝与浅拷贝</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//普通类型的赋值不算拷贝</span></span><br><span class="line">      <span class="comment">//数组和对象的赋值叫做浅拷贝（藕断丝连）</span></span><br><span class="line">      <span class="keyword">let</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">      <span class="keyword">let</span> newArr = arr;</span><br><span class="line">      newArr.push(<span class="number">4</span>)</span><br><span class="line">      <span class="built_in">console</span>.log(arr,newArr)  <span class="comment">//[1,2,3,4] [1,2,3,4]</span></span><br><span class="line"><span class="comment">//解构赋值</span></span><br><span class="line">      <span class="comment">//对一维数据可以看作深拷贝</span></span><br><span class="line">      <span class="comment">// let arr = [1,2,3]</span></span><br><span class="line">      <span class="comment">// let newArr=[...arr]</span></span><br><span class="line">      <span class="comment">// newArr.push(4)</span></span><br><span class="line">      <span class="comment">// console.log(arr,newArr) //[1,2,3] [1,2,3,4]</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">let</span> arr = [[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>],[<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]]</span><br><span class="line">      <span class="keyword">let</span> newArr=[...arr]</span><br><span class="line">      newArr[<span class="number">0</span>].push(<span class="number">666</span>)</span><br><span class="line">      <span class="built_in">console</span>.log(arr,newArr) <span class="comment">//[[1,2,3,666],[4,5,6]] [[1,2,3,666],[4,5,6]]</span></span><br><span class="line"></span><br><span class="line">      <span class="comment">//深拷贝用法=&gt;80%</span></span><br><span class="line">      <span class="keyword">let</span> list = [</span><br><span class="line">          &#123;<span class="attr">id</span>:<span class="number">1</span>,<span class="attr">name</span>:<span class="string">&#x27;huahua&#x27;</span>,<span class="attr">age</span>:<span class="number">800</span>&#125;,</span><br><span class="line">          &#123;<span class="attr">id</span>:<span class="number">2</span>,<span class="attr">name</span>:<span class="string">&#x27;xielian&#x27;</span>,<span class="attr">age</span>:<span class="number">817</span>&#125;,</span><br><span class="line">          &#123;<span class="attr">id</span>:<span class="number">3</span>,<span class="attr">name</span>:<span class="string">&#x27;lala&#x27;</span>,<span class="attr">age</span>:<span class="number">800</span>&#125;,</span><br><span class="line">      ]</span><br><span class="line"></span><br><span class="line">      <span class="keyword">let</span> newList = <span class="built_in">JSON</span>.parse(<span class="built_in">JSON</span>.stringify(list))</span><br><span class="line">      newList.push(&#123;<span class="attr">id</span>:<span class="number">6</span>&#125;)</span><br><span class="line">      <span class="built_in">console</span>.log(list,newList) <span class="comment">// list &#123;id: 1, name: &#x27;huahua&#x27;, age: 800&#125;,&#123;id: 2, name: &#x27;xielian&#x27;, age: 817&#125;,&#123;id: 3, name: &#x27;lala&#x27;, age: 800&#125;</span></span><br><span class="line">                                <span class="comment">// newList  &#123;id: 1, name: &#x27;huahua&#x27;, age: 800&#125;,&#123;id: 2, name: &#x27;xielian&#x27;, age: 817&#125;,&#123;id: 3, name: &#x27;lala&#x27;, age: 800&#125;,&#123;id: 6&#125;</span></span><br><span class="line">      </span><br><span class="line">      </span><br><span class="line">      <span class="comment">//简单版深拷贝</span></span><br><span class="line">      <span class="function"><span class="keyword">function</span> <span class="title">deepClone</span>(<span class="params">source</span>)</span>&#123;</span><br><span class="line">          <span class="comment">//[]=&gt;Array(基类) &#123;&#125;=&gt;Object</span></span><br><span class="line">          <span class="keyword">const</span> targetObj = source.constructor === <span class="built_in">Array</span> ? []:&#123;&#125;;</span><br><span class="line">          <span class="keyword">for</span> (<span class="keyword">let</span> keys <span class="keyword">in</span> source) &#123;</span><br><span class="line">              <span class="keyword">if</span>(source.hasOwnProperty(keys))&#123;</span><br><span class="line">                  <span class="comment">//引用数据类型</span></span><br><span class="line">                  <span class="keyword">if</span>(source[keys] &amp;&amp; <span class="keyword">typeof</span> source[keys]===<span class="string">&#x27;object&#x27;</span>)&#123;</span><br><span class="line">                      <span class="comment">//递归</span></span><br><span class="line">                      targetObj[keys]=deepClone(source[keys])</span><br><span class="line">                  &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                  <span class="comment">//基本数据类型</span></span><br><span class="line">                  targetObj[keys]=source[keys]</span><br><span class="line">                  &#125;</span><br><span class="line">              &#125;</span><br><span class="line">          &#125;</span><br><span class="line">          <span class="keyword">return</span> targetObj</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      <span class="keyword">let</span> obj=&#123;</span><br><span class="line">          name:<span class="string">&#x27;huahua&#x27;</span>,</span><br><span class="line">          age:<span class="number">18</span>,</span><br><span class="line">          a:&#123;</span><br><span class="line">              id:<span class="number">1</span>,</span><br><span class="line">              class:&#x27;203&#x27;</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">let</span> newObj=deepClone(obj)</span><br><span class="line">      newObj.name=<span class="string">&quot;hh&quot;</span></span><br><span class="line">      <span class="built_in">console</span>.log(obj,newObj)</span><br></pre></td></tr></table></figure>
+
+<h1 id="性能优化"><a href="#性能优化" class="headerlink" title="性能优化"></a>性能优化</h1><h2 id="在浏览器输入url之后浏览器做了什么？"><a href="#在浏览器输入url之后浏览器做了什么？" class="headerlink" title="在浏览器输入url之后浏览器做了什么？"></a>在浏览器输入url之后浏览器做了什么？</h2><p><a target="_blank" rel="noopener" href="https://www,baidu.com/">https://www,baidu.com</a></p>
+<p>url-&gt;统一资源定位符，俗称网址</p>
+<p>url是ip的一个映射</p>
+<p>https：传输协议（http和TCP之间加了一层TSL或者SSL安全层）</p>
+<p>www：服务器</p>
+<p>第一次访问：</p>
+<ol>
+<li> 解析url</li>
+<li> DNS域名系统匹配真实ip</li>
+<li> 拿到真实ip</li>
+<li> 建立连接（TCP三次握手）</li>
+<li> 拿数据，渲染页面</li>
+<li> 四次挥手</li>
+</ol>
+<p>第二次访问：读取浏览器缓存在本地的ip</p>
+<p>从哪些点做性能优化？</p>
+<ul>
+<li>加载<ul>
+<li>  减少http请求（精灵图，文件的合并）</li>
+<li>  减小文件大小（资源压缩，图片压缩，代码压缩）</li>
+<li>  CDN（第三方库，大文件，大图）</li>
+<li>  SSR服务端渲染，预渲染</li>
+<li>  懒加载</li>
+<li>  分包</li>
+</ul>
+</li>
+<li>  减少dom操作，避免回流，文档碎片</li>
+</ul>
+<p>[前端性能优化 —— reflow(回流)和repaint(重绘) - 潇洒-zhutao - 博客园 (cnblogs.com)](<a target="_blank" rel="noopener" href="https://www.cnblogs.com/zhutao/p/6551216.html#:~:text=%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96">https://www.cnblogs.com/zhutao/p/6551216.html#:~:text=前端性能优化</a> —— reflow (回流)和repaint (重绘),简要： 整个在浏览器的渲染过程中（页面初始化，用户行为改变界面样式，动画改变界面样式等）reflow (回流)和repaint (重绘) 会大大影响web性能，尤其是手机页面。)。</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/408738417">性能优化之文档碎片 - 知乎 (zhihu.com)</a></p>
+<h2 id="性能分析"><a href="#性能分析" class="headerlink" title="性能分析"></a>性能分析</h2><ol>
+<li> 页面加载性能</li>
+<li> 动画与操作性能</li>
+<li> 内存占用</li>
+<li> 电量消耗</li>
+</ol>
+<h2 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> num = <span class="built_in">document</span>.getElementsByTagName(<span class="string">&quot;img&quot;</span>).length</span><br><span class="line">      <span class="keyword">let</span> img = <span class="built_in">document</span>.getElementsByTagName(<span class="string">&quot;img&quot;</span>)</span><br><span class="line">      <span class="keyword">let</span> n = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">      lazyload()</span><br><span class="line"></span><br><span class="line">      <span class="built_in">window</span>.onscroll=lazyload</span><br><span class="line"></span><br><span class="line">      <span class="function"><span class="keyword">function</span> <span class="title">lazyload</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">          <span class="keyword">let</span> seeHeight = <span class="built_in">document</span>.documentElement.clientHeight; <span class="comment">//可见高度</span></span><br><span class="line">          <span class="keyword">let</span> scrollTop = <span class="built_in">document</span>.documentElement.scrollTo || <span class="built_in">document</span>.body.scrollTo</span><br><span class="line"></span><br><span class="line">          <span class="keyword">for</span>(<span class="keyword">let</span> i=n; i&lt;num;i++)&#123;</span><br><span class="line">              <span class="keyword">if</span>(img[i].offsetTop&lt;seeHeight+scrollTop)&#123;</span><br><span class="line">                  <span class="keyword">if</span>(img[i].getAttribute(<span class="string">&quot;src&quot;</span>) == <span class="string">&quot;./img2/timg.gif&quot;</span>)&#123;</span><br><span class="line">                      img[i].src=img[i].getAttribute(<span class="string">&quot;data-src&quot;</span>)</span><br><span class="line">                  &#125;</span><br><span class="line">                  n=i+<span class="number">1</span> <span class="comment">//防止图片重复加载</span></span><br><span class="line">              &#125;</span><br><span class="line">          &#125;</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Lriver</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://bler.top/2022/07/02/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/">http://bler.top/2022/07/02/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://bler.top" target="_blank">bler's blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%F0%9F%8C%A0html%EF%BC%8Ccss%EF%BC%8Cjs%EF%BC%8Cvue%F0%9F%8D%80/">🌠html，css，js，vue🍀</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/2D0C2B9A44C359EC55811EE06B157A54.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/wechat.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/img/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/06/24/js-this%E6%8C%87%E5%90%91%E9%97%AE%E9%A2%98/"><img class="next-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/2D0C2B9A44C359EC55811EE06B157A54.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">js this指向问题</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#k%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E4%B8%AA%E7%9B%92%E5%AD%90%E5%BF%AB%E9%80%9F%E5%B1%85%E4%B8%AD"><span class="toc-number">1.</span> <span class="toc-text">k如何让一个盒子快速居中</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#css"><span class="toc-number">2.</span> <span class="toc-text">css</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%AE%A9%E4%B8%80%E4%B8%AA%E7%9B%92%E5%AD%90%E5%BF%AB%E9%80%9F%E5%B1%85%E4%B8%AD"><span class="toc-number">2.1.</span> <span class="toc-text">如何让一个盒子快速居中</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#margin%E5%92%8Cpadding%E6%9C%89%E4%BD%95%E4%B8%8D%E5%90%8C"><span class="toc-number">2.2.</span> <span class="toc-text">margin和padding有何不同</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vw%E5%92%8C%E7%99%BE%E5%88%86%E6%AF%94%E6%9C%89%E4%BD%95%E5%8C%BA%E5%88%AB"><span class="toc-number">2.3.</span> <span class="toc-text">vw和百分比有何区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0%E4%B8%8E%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">2.4.</span> <span class="toc-text">行内元素与块级元素的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%AE%A9%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81%E5%B0%8F%E5%AD%97%E4%BD%93"><span class="toc-number">2.5.</span> <span class="toc-text">如何让谷歌浏览器支持小字体</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#js"><span class="toc-number">3.</span> <span class="toc-text">js</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#let%E4%B8%8Evar"><span class="toc-number">3.1.</span> <span class="toc-text">let与var</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D"><span class="toc-number">3.2.</span> <span class="toc-text">深拷贝与浅拷贝</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96"><span class="toc-number">4.</span> <span class="toc-text">性能优化</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5url%E4%B9%8B%E5%90%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-number">4.1.</span> <span class="toc-text">在浏览器输入url之后浏览器做了什么？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">4.2.</span> <span class="toc-text">性能分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E6%87%92%E5%8A%A0%E8%BD%BD"><span class="toc-number">4.3.</span> <span class="toc-text">图片懒加载</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Lriver</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script defer src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'cKPK0mUHQfdiyfDyXKEfwBOB-gzGzoHsz',
+      appKey: 'f7hvzT3sNX0XpaqENII2GloW',
+      placeholder: '昵称是随便填的啦，另外填写邮箱可以及时收到回复哦！使用qq邮箱默认qq头像,网址栏选填哟',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+      requiredFields: ["nick,mail"],
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script defer src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script>var gitcalendar = new Vue({
+  el: '#gitcalendar',
+  data: {
+    simplemode: true, 
+    user: 'BlueSgler',
+    fixed: 'fixed',
+    px: 'px',
+    x: '',
+    y: '',
+    span1: '',
+    span2: '',
+    month: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+    monthchange: [],
+    oneyearbeforeday: '',
+    thisday: '',
+    amonthago: '',
+    aweekago: '',
+    weekdatacore: 0,
+    datacore: 0,
+    total: 0,
+    datadate: '',
+    data: [],
+    positionplusdata: [],
+    firstweek: [],
+    lastweek: [],
+    beforeweek: [],
+    thisweekdatacore: 0,
+    mounthbeforeday: 0,
+    mounthfirstindex: 0,
+    crispedges: 'crispedges',
+    thisdayindex: 0,
+    amonthagoindex: 0,
+    amonthagoweek: [],
+    firstdate: [],
+    first2date: [],
+    montharrbefore: [],
+    monthindex: 0,
+    color: ['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']
+  },
+  methods: {
+    selectStyle(data, event) {
+      document.querySelector('.angle-wrapper').style.display = 'block'
+      this.span1 = data.date;
+      this.span2 = data.count;
+      this.x = event.clientX - 100;
+      this.y = event.clientY - 60
+    },
+    outStyle() {
+      document.querySelector('.angle-wrapper').style.display = 'none'
+    },
+    thiscolor(x) {
+      if (x === 0) {
+        let i = parseInt(x / 2);
+        return this.color[0]
+      } else if (x < 2) {
+        return this.color[1]
+      } else if (x < 20) {
+        let i = parseInt(x / 2);
+        return this.color[i]
+      } else {
+        return this.color[9]
+      }
+    },
+  }
+});
+var apiurl = '' ? 'https:///api?' : 'https://githubapi.ryanchristian.dev/user/'
+var githubapiurl = apiurl + gitcalendar.user;
+//canvas绘图
+function responsiveChart() {
+  let c = document.getElementById("gitcanvas");
+  if (c) {
+    let cmessage = document.getElementById("gitmessage");
+    let ctx = c.getContext("2d");
+    c.width = document.getElementById("gitcalendarcanvasbox").offsetWidth;
+    let linemaxwitdh = 0.96 * c.width / gitcalendar.data.length;
+    c.height = 9 * linemaxwitdh;
+    let lineminwitdh = 0.8 * linemaxwitdh;
+    let setposition = {
+      x: 0.02 * c.width,
+      y: 0.025 * c.width
+    };
+    for (let week in gitcalendar.data) {
+      weekdata = gitcalendar.data[week];
+      for (let day in weekdata) {
+        let dataitem = {
+          date: "",
+          count: "",
+          x: 0,
+          y: 0
+        };
+        gitcalendar.positionplusdata.push(dataitem);
+        ctx.fillStyle = gitcalendar.thiscolor(weekdata[day].count);
+        setposition.y = Math.round(setposition.y * 100) / 100;
+        dataitem.date = weekdata[day].date;
+        dataitem.count = weekdata[day].count;
+        dataitem.x = setposition.x;
+        dataitem.y = setposition.y;
+        ctx.fillRect(setposition.x, setposition.y, lineminwitdh, lineminwitdh);
+        setposition.y = setposition.y + linemaxwitdh
+      };
+      setposition.y = 0.025 * c.width;
+      setposition.x = setposition.x + linemaxwitdh
+    };
+    ctx.font = "600  Arial";
+    ctx.fillStyle = '#aaa';
+    ctx.fillText("日", 0, 1.9 * linemaxwitdh);
+    ctx.fillText("二", 0, 3.9 * linemaxwitdh);
+    ctx.fillText("四", 0, 5.9 * linemaxwitdh);
+    ctx.fillText("六", 0, 7.9 * linemaxwitdh);
+    let monthindexlist = c.width / 24;
+    for (let index in gitcalendar.monthchange) {
+      ctx.fillText(gitcalendar.monthchange[index], monthindexlist, 0.7 * linemaxwitdh);
+      monthindexlist = monthindexlist + c.width / 12
+    };
+    cmessage.onmousemove = function(event) {
+      document.querySelector('.angle-wrapper').style.display = 'none'
+    };
+    c.onmousemove = function(event) {
+      document.querySelector('.angle-wrapper').style.display = 'none'
+      getMousePos(c, event);
+    };
+
+    function getMousePos(canvas, event) {
+      var rect = canvas.getBoundingClientRect();
+      var x = event.clientX - rect.left * (canvas.width / rect.width);
+      var y = event.clientY - rect.top * (canvas.height / rect.height);
+      //console.log("x:"+x+",y:"+y);
+      for (let item of gitcalendar.positionplusdata) {
+        let lenthx = x - item.x;
+        let lenthy = y - item.y;
+        //console.log(lenthx,lenthy);
+        if (0 < lenthx && lenthx < lineminwitdh) {
+          if (0 < lenthy && lenthy < lineminwitdh) {
+            //console.log(item.date,item.count)
+            document.querySelector('.angle-wrapper').style.display = 'block'
+            gitcalendar.span1 = item.date;
+            gitcalendar.span2 = item.count;
+            gitcalendar.x = event.clientX - 100;
+            gitcalendar.y = event.clientY - 60
+          }
+        }
+        //if(0< x - item.x <lineminwitdh&&0< y - item.y <lineminwitdh){
+        //console.log(item.count,item.date);
+        //}
+      }
+    }
+  }
+}
+//数据统计算法
+function addlastmonth() {
+  if (gitcalendar.thisdayindex === 0) {
+    thisweekcore(52);
+    thisweekcore(51);
+    thisweekcore(50);
+    thisweekcore(49);
+    thisweekcore(48);
+    gitcalendar.thisweekdatacore += gitcalendar.firstdate[6].count;
+    gitcalendar.amonthago = gitcalendar.firstdate[6].date
+  } else {
+    thisweekcore(52);
+    thisweekcore(51);
+    thisweekcore(50);
+    thisweekcore(49);
+    thisweek2core();
+    gitcalendar.amonthago = gitcalendar.first2date[gitcalendar.thisdayindex - 1].date
+  }
+};
+
+function thisweek2core() {
+  for (let i = gitcalendar.thisdayindex - 1; i < gitcalendar.first2date.length; i++) {
+    gitcalendar.thisweekdatacore += gitcalendar.first2date[i].count
+  }
+};
+
+function thisweekcore(index) {
+  for (let item of gitcalendar.data[index]) {
+    gitcalendar.thisweekdatacore += item.count
+  }
+};
+
+function addlastweek() {
+  for (let item of gitcalendar.lastweek) {
+    gitcalendar.weekdatacore += item.count
+  }
+};
+
+function addbeforeweek() {
+  for (let i = gitcalendar.thisdayindex; i < gitcalendar.beforeweek.length; i++) {
+    gitcalendar.weekdatacore += gitcalendar.beforeweek[i].count
+  }
+};
+
+function addweek(data) {
+  if (gitcalendar.thisdayindex === 6) {
+    gitcalendar.aweekago = gitcalendar.lastweek[0].date;
+    addlastweek()
+  } else {
+    lastweek = data.contributions[51];
+    gitcalendar.aweekago = lastweek[gitcalendar.thisdayindex + 1].date;
+    addlastweek();
+    addbeforeweek()
+  }
+}
+
+fetch(githubapiurl)
+  .then(data => data.json())
+  .then(data => {
+    gitcalendar.data = data.contributions;
+    gitcalendar.total = data.total;
+    gitcalendar.first2date = gitcalendar.data[48];
+    gitcalendar.firstdate = gitcalendar.data[47];
+    gitcalendar.firstweek = data.contributions[0];
+    gitcalendar.lastweek = data.contributions[52];
+    gitcalendar.beforeweek = data.contributions[51];
+    gitcalendar.thisdayindex = gitcalendar.lastweek.length - 1;
+    gitcalendar.thisday = gitcalendar.lastweek[gitcalendar.thisdayindex].date;
+    gitcalendar.oneyearbeforeday = gitcalendar.firstweek[0].date;
+    gitcalendar.monthindex = gitcalendar.thisday.substring(5, 7) * 1;
+    gitcalendar.montharrbefore = gitcalendar.month.splice(gitcalendar.monthindex, 12 - gitcalendar.monthindex);
+    gitcalendar.monthchange = gitcalendar.montharrbefore.concat(gitcalendar.month);
+    addweek(data);
+    addlastmonth();
+    responsiveChart();
+  })
+  .catch(function(error) {
+    console.log(error);
+  });
+
+//手机版更换为svg绘制
+if (document.getElementById("gitcalendarcanvasbox").offsetWidth < 500) {
+  gitcalendar.simplemode = false
+}
+
+//当改变窗口大小时重新绘制canvas
+window.onresize = function() {
+  if (gitcalendar.simplemode) responsiveChart()
+}
+
+//解决滚动滑轮时出现的标签显示
+window.onscroll = function() {
+  if (document.querySelector('.angle-wrapper')) {
+    document.querySelector('.angle-wrapper').style.display = 'none'
+  }
+};</script></div><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><script src="/js/botui.js"></script><script data-pjax src="/js/botui_init.js"></script><script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script><canvas id="universe"></canvas><script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script><script src="https://cdn.jsdelivr.net/gh/Sanarous/files@1.151/js/click.min.js"></script><script async src="/js/diytitle.js"></script><script defer src="/js/universe.js"></script><script src="https://cdn.jsdelivr.net/gh/Sanarous/files@1.13/js/linkcard.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+                        function butterfly_swiper_injector_config(){
+                          var parent_div_git = document.getElementById('recent-posts');
+                          var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/03/06/“重生与社死”/" alt=""><img width="48" height="48" src="/img/ctr.jpg" alt=""/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-03-06</span><a class="blog-slider__title" href="2021/03/06/“重生与社死”/" alt="">“重生与社死”</a><div class="blog-slider__text">微小说吧</div><a class="blog-slider__button" href="2021/03/06/“重生与社死”/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/07/28/算法/" alt=""><img width="48" height="48" src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/16028C6EF8217D6995E26AA3B2F2CE7F.jpg" alt=""/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-07-28</span><a class="blog-slider__title" href="2021/07/28/算法/" alt="">算法</a><div class="blog-slider__text">算法笔记</div><a class="blog-slider__button" href="2021/07/28/算法/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/07/12/html+css/" alt=""><img width="48" height="48" src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/2D0C2B9A44C359EC55811EE06B157A54.jpg" alt=""/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-07-12</span><a class="blog-slider__title" href="2021/07/12/html+css/" alt="">html+css</a><div class="blog-slider__text">前端学习笔记</div><a class="blog-slider__button" href="2021/07/12/html+css/" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="2021/08/14/我们为什么把时间定义为第四维度/" alt=""><img width="48" height="48" src="https://cdn.jsdelivr.net/gh/BlueSgler/mycdn/img/FD7E555FE7CABE4B2C13EF1F2B2ADD08.jpg" alt=""/></a><div class="blog-slider__content"><span class="blog-slider__code">2021-08-14</span><a class="blog-slider__title" href="2021/08/14/我们为什么把时间定义为第四维度/" alt="">我们为什么把时间定义为第四维度</a><div class="blog-slider__text">关于时间维度的一些思考</div><a class="blog-slider__button" href="2021/08/14/我们为什么把时间定义为第四维度/" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+                          console.log('已挂载butterfly_swiper')
+                          // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                          parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+                          }
+                        if( document.getElementById('recent-posts') && (location.pathname ==='all'|| 'all' ==='all')){
+                        butterfly_swiper_injector_config()
+                        }
+                      </script><script defer src="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper_init.js"></script><!-- hexo injector body_end end --></body></html>

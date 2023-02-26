@@ -620,7 +620,7 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/js/</loc>
+    <loc>http://bler.top/tags/node-js/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -634,14 +634,14 @@
   </url>
   
   <url>
-    <loc>http://bler.top/tags/%E5%89%8D%E7%AB%AF-%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</loc>
+    <loc>http://bler.top/tags/js/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/tags/node-js/</loc>
+    <loc>http://bler.top/tags/%E5%89%8D%E7%AB%AF-%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -755,14 +755,14 @@
 
   
   <url>
-    <loc>http://bler.top/categories/%E8%8B%B1%E8%AF%AD/</loc>
+    <loc>http://bler.top/categories/C/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://bler.top/categories/C/</loc>
+    <loc>http://bler.top/categories/%E8%8B%B1%E8%AF%AD/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

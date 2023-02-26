@@ -641,14 +641,14 @@
   </url>
   
   <url>
-    <loc>https://bluesgler.github.io/tags/%E5%89%8D%E7%AB%AF-%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</loc>
+    <loc>https://bluesgler.github.io/tags/pr/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bluesgler.github.io/tags/pr/</loc>
+    <loc>https://bluesgler.github.io/tags/%E5%89%8D%E7%AB%AF-%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -732,14 +732,14 @@
   </url>
   
   <url>
-    <loc>https://bluesgler.github.io/tags/%E6%97%A5%E8%AF%AD/</loc>
+    <loc>https://bluesgler.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://bluesgler.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://bluesgler.github.io/tags/%E6%97%A5%E8%AF%AD/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -832,13 +832,6 @@
   </url>
   
   <url>
-    <loc>https://bluesgler.github.io/categories/%E6%97%A5%E8%AF%AD/</loc>
-    <lastmod>2023-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bluesgler.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
@@ -846,7 +839,7 @@
   </url>
   
   <url>
-    <loc>https://bluesgler.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://bluesgler.github.io/categories/%E6%97%A5%E8%AF%AD/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -854,6 +847,13 @@
   
   <url>
     <loc>https://bluesgler.github.io/categories/%E6%B1%87%E7%BC%96/</loc>
+    <lastmod>2023-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bluesgler.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2023-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
